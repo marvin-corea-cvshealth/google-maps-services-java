@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: google-maps-services-java
+  annotations:
+    github.com/project-slug: marvin-corea-cvshealth/google-maps-services-java
+spec:
+  type: other
+  lifecycle: unknown
+  owner: devsecops
