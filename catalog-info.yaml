@@ -2,9 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: google-maps-services-java
+  description: Java client library for Google Maps API Web Services
+  tags: 
+    - java
+    - maps
+    - client-library
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/google-maps-services-java
 spec:
-  type: other
-  lifecycle: unknown
+  type: maps
+  lifecycle: dev
   owner: devsecops
+  system: java
